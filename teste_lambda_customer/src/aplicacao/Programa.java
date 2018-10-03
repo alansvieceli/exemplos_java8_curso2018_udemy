@@ -6,6 +6,8 @@ import java.util.function.Consumer;
 
 import entidades.Produto;
 
+//https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html
+
 public class Programa {
 
 	public static void main(String[] args) {
