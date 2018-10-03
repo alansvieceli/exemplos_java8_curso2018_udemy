@@ -59,7 +59,7 @@ public class Produto {
 	
 	@Override
 	public String toString() {
-		return "Produto [nome=" + nome + ", preco=" + preco + "]";
+		return "Produto [nome=" + nome + ", preco=" + String.format("%.2f", preco) + "]";
 	}
 	
 	//Reference method com método estático
